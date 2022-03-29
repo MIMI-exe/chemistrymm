@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "g": {
+      "item": "chemistry:carbon_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chemistry:carbon_pickaxe",
+    "count": 1
+  }
+}

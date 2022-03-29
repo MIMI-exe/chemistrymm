@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#SS",
+    "#AS",
+    " SS"
+  ],
+  "key": {
+    "#": {
+      "item": "chemistry:fluessig_carbon"
+    },
+    "S": {
+      "item": "chemistry:fluessig_wasserstoff"
+    },
+    "A": {
+      "item": "chemistry:hydroxidion"
+    }
+  },
+  "result": {
+    "item": "chemistry:ethanol",
+    "count": 1
+  }
+}

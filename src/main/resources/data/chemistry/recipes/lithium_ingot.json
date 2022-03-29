@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "chemistry:lithium_block"
+    }
+  },
+  "result": {
+    "item": "chemistry:lithium_ingot",
+    "count": 9
+  }
+}

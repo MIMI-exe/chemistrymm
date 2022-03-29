@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gA"
+  ],
+  "key": {
+    "g": {
+      "item": "chemistry:fluessig_wasserstoff"
+    },
+    "A": {
+      "item": "chemistry:fluessig_sauerstoff"
+    }
+  },
+  "result": {
+    "item": "chemistry:hydroxidion",
+    "count": 1
+  }
+}

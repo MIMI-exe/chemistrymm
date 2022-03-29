@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "BGB",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "chemistry:nether_carbon_faser"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "chemistry:ion_linse",
+    "count": 1
+  }
+}

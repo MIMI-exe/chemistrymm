@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "chemistry:stickstoff_cristall"
+    }
+  },
+  "result": {
+    "item": "chemistry:stickstoff_block",
+    "count": 1
+  }
+}

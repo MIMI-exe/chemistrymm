@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "chemistry:block/lightning_channeler",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "chemistry:block/lightning_channeler"
+    },
+    "facing=south": {
+      "model": "chemistry:block/lightning_channeler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemistry:block/lightning_channeler",
+      "y": 270
+    }
+  }
+}

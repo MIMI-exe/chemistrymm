@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "#B#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "W": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "result": {
+    "item": "chemistry:book_of_physiks",
+    "count": 1
+  }
+}

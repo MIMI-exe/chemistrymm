@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "giS",
+    "iB/",
+    "giS"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "chemistry:rgb_lampe"
+    },
+    "B": {
+      "item": "chemistry:cooling_bar"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "chemistry:grafikkarte",
+    "count": 1
+  }
+}

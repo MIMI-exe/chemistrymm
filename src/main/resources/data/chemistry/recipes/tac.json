@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#gR",
+    "EDi",
+    "g#i"
+  ],
+  "key": {
+    "#": {
+      "item": "chemistry:neon_cristall"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "chemistry:led_lampe"
+    },
+    "D": {
+      "item": "chemistry:prozessor"
+    },
+    "i": {
+      "item": "chemistry:carbon_ingot"
+    }
+  },
+  "result": {
+    "item": "chemistry:tac",
+    "count": 1
+  }
+}

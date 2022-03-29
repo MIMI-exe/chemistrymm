@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chemistry:siedelion"
+        }
+    },
+    "result": {
+        "item": "chemistry:siede_pulver",
+        "count": 2
+    }
+}

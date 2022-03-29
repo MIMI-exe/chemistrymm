@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "# #",
+    "#L#"
+  ],
+  "key": {
+    "#": {
+      "item": "chemistry:cooling_bar"
+    },
+    "L": {
+      "item": "chemistry:led_lampe"
+    }
+  },
+  "result": {
+    "item": "chemistry:cooling_ring",
+    "count": 1
+  }
+}

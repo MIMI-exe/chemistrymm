@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "i"
+    ],
+    "key": {
+        "i": {
+            "item": "chemistry:kohlenstoff_ingot"
+        }
+    },
+    "result": {
+        "item": "chemistry:carbon_string",
+        "count": 4
+    }
+}

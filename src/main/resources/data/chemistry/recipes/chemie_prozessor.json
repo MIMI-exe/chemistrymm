@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g",
+    "Q",
+    "L"
+  ],
+  "key": {
+    "g": {
+      "item": "chemistry:book_of_chemistry"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "L": {
+      "item": "chemistry:prozessor"
+    }
+  },
+  "result": {
+    "item": "chemistry:chemie_prozessor",
+    "count": 1
+  }
+}

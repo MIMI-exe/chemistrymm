@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "chemistry:boron_block"
+    }
+  },
+  "result": {
+    "item": "chemistry:boron_smaragd",
+    "count": 9
+  }
+}
