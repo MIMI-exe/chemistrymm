@@ -17,7 +17,15 @@ public class ModTileEntities {
             TILE_ENTITIES.register("lightning_channeler_tile", () -> TileEntityType.Builder.create(
                     LightningChannelerTile::new, BlockInit.LIGHTNING_CHANNELER.get()).build(null));
 
+
+
+    public static RegistryObject<TileEntityType<MicroscopeTile>> MICROSCOPE_TILE =
+            TILE_ENTITIES.register("microscope_tile", () -> TileEntityType.Builder.create(
+                    MicroscopeTile::new, BlockInit.MICROSCOPE.get()).build(null));
+
+
     public static void register(IEventBus eventBus) {
         TILE_ENTITIES.register(eventBus);
     }
-}
+
+    }

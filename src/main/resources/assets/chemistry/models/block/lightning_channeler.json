@@ -6,7 +6,7 @@
 		"2": "chemistry:blocks/darkblue",
 		"3": "chemistry:blocks/orange",
 		"4": "chemistry:blocks/white",
-		"particle": "grey"
+		"particle": "chemistry:blocks/lab_block"
 	},
 	"elements": [
 		{
@@ -981,5 +981,40 @@
 				"down": {"uv": [0, 0, 3, 2], "rotation": 90, "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [50, 0, 0],
+			"translation": [0, 2.25, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [50, 0, 0],
+			"translation": [0, 2.25, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, -0.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [45, 45, 0],
+			"translation": [0, 3, 7.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 13, 0]
+		},
+		"fixed": {
+			"rotation": [-50, 0, 0],
+			"translation": [0, 2.75, -4],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }

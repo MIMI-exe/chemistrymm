@@ -23,6 +23,14 @@ public class  ModContainers {
                 return new LightningChannelerContainer(windowId, world, pos, inv, inv.player );
             })));
 
+    public static final RegistryObject<ContainerType<MicroscopeContainer>> MICROSCOPE_CONTAINER
+            = CONTAINERS.register("microscope_container",
+            () -> IForgeContainerType.create(((windowId, inv, data) -> {
+                BlockPos pos = data.readBlockPos();
+                World world = inv.player.getEntityWorld();
+                return new MicroscopeContainer(windowId, world, pos, inv, inv.player );
+            })));
+
 
     public static void register(IEventBus eventBus){
         CONTAINERS.register(eventBus);

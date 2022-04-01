@@ -2,6 +2,7 @@ package de.darth_griefer_.chemistry;
 
 
 import de.darth_griefer_.chemistry.screen.LightningChannelerScreen;
+import de.darth_griefer_.chemistry.screen.MicroscopeScreen;
 import de.darth_griefer_.chemistry.world.structure.ModStructures;
 import de.darth_griefer_.chemistry.container.ModContainers;
 import de.darth_griefer_.chemistry.tileentity.ModTileEntities;
@@ -74,6 +75,12 @@ public class Chemistry {
                     LightningChannelerScreen::new);
 
             RenderTypeLookup.setRenderLayer(BlockInit.LIGHTNING_CHANNELER.get(), RenderType.getCutout());
+
+
+            RenderTypeLookup.setRenderLayer(BlockInit.MICROSCOPE.get(), RenderType.getCutout());
+
+            RenderTypeLookup.setRenderLayer(BlockInit.DESTILLATOR.get(), RenderType.getCutout());
+
 
         });
    }

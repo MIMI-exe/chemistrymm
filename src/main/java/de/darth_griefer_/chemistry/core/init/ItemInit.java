@@ -856,6 +856,143 @@ public class ItemInit {
     public static final RegistryObject<Item> NETHER_CARBON_INGOT = ITEMS.register("nether_carbon_ingot",
             ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
 
+    public static final RegistryObject<Item> PETRI_BEETROOT = ITEMS.register("petri_beetroot",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_BEETROOT_ZELL = ITEMS.register("petri_beetroot_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_BEETROOTSEED = ITEMS.register("petri_beetrootseed",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_BEETROOTSEED_ZELL = ITEMS.register("petri_beetrootseed_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+    public static final RegistryObject<Item> PETRI_BUBBLEFISH = ITEMS.register("petri_bubblefish",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_BUBBLEFISH_ZELL = ITEMS.register("petri_bubblefish_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CARROT = ITEMS.register("petri_carrot",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CARROT_ZELL = ITEMS.register("petri_carrot_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CHICKEN = ITEMS.register("petri_chicken",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CHICKEN_ZELL = ITEMS.register("petri_chicken_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CHORUS = ITEMS.register("petri_chorus",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CHORUS_ZELL = ITEMS.register("petri_chorus_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CLOWNFISH = ITEMS.register("petri_clownfish",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_CLOWNFISH_ZELL = ITEMS.register("petri_clownfish_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COCOBEANS = ITEMS.register("petri_cocobeans",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COCPBEANS_ZELL = ITEMS.register("petri_cocobeans_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COD = ITEMS.register("petri_cod",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COD_ZELL = ITEMS.register("petri_cod_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COW = ITEMS.register("petri_cow",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_COW_ZELL = ITEMS.register("petri_cow_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_LEATHER = ITEMS.register("petri_leather",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_LEATHER_ZELL = ITEMS.register("petri_leather_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_MELON = ITEMS.register("petri_melon",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_MELON_ZELL = ITEMS.register("petri_melon_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_MELONSEED = ITEMS.register("petri_melonseed",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_MELONSEED_ZELL = ITEMS.register("petri_melonseed_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_PIG = ITEMS.register("petri_pig",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_PIG_ZELL = ITEMS.register("petri_pig_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_POTATO = ITEMS.register("petri_potato",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_POTATO_ZELL = ITEMS.register("petri_potato_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_PUMPKINSEED = ITEMS.register("petri_pumpkinseed",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_PUMPKINSEED_ZELL = ITEMS.register("petri_pumpkinseed_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBIT = ITEMS.register("petri_rabbit",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBIT_ZELL = ITEMS.register("petri_rabbit_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBITFOOT = ITEMS.register("petri_rabbitfoot",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBITFOOT_ZELL = ITEMS.register("petri_rabbitfoot_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBITLEATHER = ITEMS.register("petri_rabbitleather",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_RABBITLEATHER_ZELL = ITEMS.register("petri_rabbitleather_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SALMON = ITEMS.register("petri_salmon",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SALMON_ZELL = ITEMS.register("petri_salmon_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SHEEP = ITEMS.register("petri_sheep",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SHEEP_ZELL = ITEMS.register("petri_sheep_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SPIDER = ITEMS.register("petri_spider",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SPIDER_ZELL = ITEMS.register("petri_spider_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SUGARCANE = ITEMS.register("petri_sugarcane",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
+    public static final RegistryObject<Item> PETRI_SUGARCANE_ZELL = ITEMS.register("petri_sugarcane_zell",
+            ()->new Item(new Item.Properties().group(RandomGroup.STUFF)));
+
 
 
 

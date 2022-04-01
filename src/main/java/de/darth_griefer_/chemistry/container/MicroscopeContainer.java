@@ -1,8 +1,10 @@
 package de.darth_griefer_.chemistry.container;
 
 import de.darth_griefer_.chemistry.core.init.BlockInit;
+import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.container.AbstractRepairContainer;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.item.ItemStack;
@@ -15,14 +17,14 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.wrapper.InvWrapper;
 
-public class LightningChannelerContainer extends Container {
+public class MicroscopeContainer extends Container {
     private final TileEntity tileEntity;
     private final PlayerEntity playerEntity;
     private final IItemHandler playerInventory;
 
-    public LightningChannelerContainer(int windowId, World world, BlockPos pos,
+    public MicroscopeContainer(int windowId, World world, BlockPos pos,
                                        PlayerInventory playerInventory, PlayerEntity player) {
-        super(ModContainers.LIGHTNING_CHANNELER_CONTAINER.get(), windowId);
+        super(ModContainers.MICROSCOPE_CONTAINER.get(), windowId);
         this.tileEntity = world.getTileEntity(pos);
         playerEntity = player;
         this.playerInventory = new InvWrapper(playerInventory);
@@ -30,20 +32,19 @@ public class LightningChannelerContainer extends Container {
 
         if(tileEntity != null) {
             tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(h -> {
-                addSlot(new SlotItemHandler(h, 0, 80, 31));
-                addSlot(new SlotItemHandler(h, 1, 80, 53));
+                addSlot(new SlotItemHandler(h, 0, 44, 28));
+                addSlot(new SlotItemHandler(h, 1, 44, 50));
+                addSlot(new SlotItemHandler(h, 2, 80, 39));
+                addSlot(new SlotItemHandler(h, 3, 116, 28));
+                addSlot(new SlotItemHandler(h, 4, 116, 50));
             });
         }
-    }
-
-    public boolean isLightningStorm() {
-        return tileEntity.getWorld().isThundering();
     }
 
     @Override
     public boolean canInteractWith(PlayerEntity playerIn) {
         return isWithinUsableDistance(IWorldPosCallable.of(tileEntity.getWorld(), tileEntity.getPos()),
-                playerIn, BlockInit.LIGHTNING_CHANNELER.get());
+                playerIn, BlockInit.MICROSCOPE.get());
     }
 
 
@@ -72,6 +73,8 @@ public class LightningChannelerContainer extends Container {
         topRow += 58;
         addSlotRange(playerInventory, 0, leftCol, topRow, 9, 18);
     }
+
+
 
 
 
@@ -123,4 +126,5 @@ public class LightningChannelerContainer extends Container {
         sourceSlot.onTake(playerEntity, sourceStack);
         return copyOfSourceStack;
     }
+
 }

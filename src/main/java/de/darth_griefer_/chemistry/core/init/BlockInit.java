@@ -1,7 +1,9 @@
 package de.darth_griefer_.chemistry.core.init;
 
 import de.darth_griefer_.chemistry.Chemistry;
+import de.darth_griefer_.chemistry.core.init.custom.DestillatorBlock;
 import de.darth_griefer_.chemistry.core.init.custom.LightningChannelerBlock;
+import de.darth_griefer_.chemistry.core.init.custom.MicroscopeBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -52,7 +54,15 @@ public class BlockInit {
             ()->new FlowerBlock(Effects.HUNGER,2,AbstractBlock.Properties.from(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> LIGHTNING_CHANNELER = BLOCKS.register("lightning_channeler",
-            ()->new LightningChannelerBlock(AbstractBlock.Properties.create(Material.IRON)));
+            ()->new LightningChannelerBlock(AbstractBlock.Properties.create((Material.IRON),MaterialColor.QUARTZ).hardnessAndResistance(1.5f,4).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> MICROSCOPE = BLOCKS.register("microscope",
+            ()->new MicroscopeBlock(AbstractBlock.Properties.create((Material.IRON),MaterialColor.QUARTZ).hardnessAndResistance(1.5f,4)
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).setLightLevel(BlockState -> 2)));
+
+    public static final RegistryObject<Block> DESTILLATOR = BLOCKS.register("destillator",
+            ()->new DestillatorBlock(AbstractBlock.Properties.create((Material.IRON),MaterialColor.QUARTZ).hardnessAndResistance(2.5f,4)
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL).setLightLevel(BlockState -> 2)));
 
 
 }
